@@ -8,7 +8,7 @@ Darkly is an introduction to web cybersecurity. The project consists of exploiti
 
 ## Instructions
 1. Clone the repository.
-2. Navigate into each breach folder (named 00–13 or by vulnerability type).
+2. Navigate into each breach folder.
 3. Inside each folder, `flag` contains the obtained flag; `Resources/` contains screenshots, payloads, or notes used to demonstrate the exploit.
 4. No binaries are included – only text-based proofs.
 
