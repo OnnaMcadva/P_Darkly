@@ -14,6 +14,7 @@ Darkly is an introduction to web cybersecurity. The project consists of exploiti
 
 
 - [robots_txt](./robots_txt)
+- [i_am_admin_md5](./i_am_admin_md5)
 
 
 ## Resources
