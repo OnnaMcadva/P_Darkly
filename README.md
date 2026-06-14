@@ -12,6 +12,7 @@ Darkly is an introduction to web cybersecurity. The project consists of exploiti
 3. Inside each folder, `flag` contains the obtained flag; `Resources/` contains screenshots, payloads, or notes used to demonstrate the exploit.
 4. No binaries are included – only text-based proofs.
 
+## Breaches
 
 - [robots_txt](./robots_txt)
 - [i_am_admin_md5](./i_am_admin_md5)
