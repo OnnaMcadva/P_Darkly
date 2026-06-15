@@ -1,4 +1,4 @@
-# Breach 2 — Header Spoofing + Hidden Page in HTML Comment
+Header Spoofing + Hidden Page in HTML Comment
 
 > **Тип уязвимости / Vulnerability Type:** Information Disclosure via HTML Comments + HTTP Header Forgery  
 > **Уровень сложности / Difficulty:** Beginner  
