@@ -240,5 +240,3 @@ FLAG
 | Sensitive files in web-accessible folder | Store outside the web root or protect with proper authentication |
 
 ---
-
-*Writeup for Darkly educational project — Breach 3*
