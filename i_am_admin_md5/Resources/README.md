@@ -1,4 +1,4 @@
-# cookie_admin_forge
+# Cookie Forgery (MD5)
 
 > **Тип уязвимости / Vulnerability Type:** Insecure Authentication via Client-Side Cookie  
 > **Уровень сложности / Difficulty:** Beginner  

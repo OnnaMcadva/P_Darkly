@@ -1,4 +1,4 @@
-# sensitive_file_exposure
+# Exposed Credentials via robots.txt
 
 > **Тип уязвимости / Vulnerability Type:** Sensitive File Exposure  
 > **Уровень сложности / Difficulty:** Beginner  
