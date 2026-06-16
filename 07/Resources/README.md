@@ -306,5 +306,3 @@ if (!in_array($real_mime, $allowed_mimes)) {
 `finfo_file()` reads the actual file content and determines the type from magic bytes — the first bytes of the file. A JPEG always starts with `FF D8 FF`. A PHP file starts with `<?`. This cannot be faked through a header.
 
 ---
-
-*Writeup for Darkly educational project — Breach 7*
