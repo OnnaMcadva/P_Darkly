@@ -53,10 +53,10 @@ python3 -m pip install requests bs4
 ### Шаг 4 — Запуск скрипта
 
 ```bash
-python3 scrap.py
+python3 scraper.py
 ```
 
-Скрипт `scrap.py` лежит в папке breach'а. Он автоматически обходит все директории и собирает содержимое каждого `README`.
+Скрипт `scraper.py` лежит в папке breach'а. Он автоматически обходит все директории и собирает содержимое каждого `README`.
 
 **Как работает скрипт — логика:**
 
@@ -83,11 +83,20 @@ python3 scrap.py
 
 ### Шаг 5 — Найти флаг среди результатов
 
+Скрипт делает это автоматически — отдельная команда не нужна.
+
+После того как все README скачаны, `scraper.py` сам фильтрует заглушки (`Nope`, `Tu`, `Non`) и выводит флаг прямо в терминал:
+
+```
+[!!!] FLAG FOUND:
+    <flag>
+```
+
+Если хочешь проверить вручную — результаты также сохраняются в файл `scrapped_data`, и можно отфильтровать так:
+
 ```bash
 sort -u scrapped_data | grep -v "Nope\|Tu\|Non"
 ```
-
-**Разбор команды:**
 
 | Часть | Что делает |
 |-------|-----------|
@@ -171,10 +180,10 @@ python3 -m pip install requests bs4
 ### Step 4 — Running the Script
 
 ```bash
-python3 scrap.py
+python3 scraper.py
 ```
 
-The `scrap.py` script is located in the breach folder. It automatically traverses all directories and collects the content of every `README` file.
+The `scraper.py` script is located in the breach folder. It automatically traverses all directories and collects the content of every `README` file.
 
 **How the script works — logic:**
 
@@ -201,11 +210,20 @@ Every directory listing page contains a `../` link — "go up one level." If we 
 
 ### Step 5 — Finding the Flag in the Results
 
+The script handles this automatically — no separate command needed.
+
+Once all README files are downloaded, `scraper.py` filters out the decoy strings (`Nope`, `Tu`, `Non`) and prints the flag directly in the terminal:
+
+```
+[!!!] FLAG FOUND:
+    <flag>
+```
+
+If you want to verify manually — results are also saved to the `scrapped_data` file and can be filtered like this:
+
 ```bash
 sort -u scrapped_data | grep -v "Nope\|Tu\|Non"
 ```
-
-**Command breakdown:**
 
 | Part | What it does |
 |------|-------------|
