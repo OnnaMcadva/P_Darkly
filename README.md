@@ -21,6 +21,13 @@ Darkly is an introduction to web cybersecurity. The project consists of exploiti
 - [hidden_email_field](./hidden_email_field)
 - [path_traversal](./path_traversal)
 - [open_redirect](./open_redirect)
+- [unrestricted_file_upload](./unrestricted_file_upload)
+- [](./)
+- [](./)
+- [](./)
+- [](./)
+- [](./)
+- [](./)
 
 
 ## Resources
