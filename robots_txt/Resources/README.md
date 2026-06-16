@@ -72,7 +72,7 @@ root:437394baff5aa33daa618be47b75cb49
 
 **Метод взлома — reverse lookup:**
 
-Идём на https://md5.gromweb.com, вводим хеш:
+Идём на [https://md5.gromweb.com](https://md5decrypt.net/en/), вводим хеш:
 ```
 437394baff5aa33daa618be47b75cb49  →  qwerty123@
 ```
