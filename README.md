@@ -22,12 +22,12 @@ Darkly is an introduction to web cybersecurity. The project consists of exploiti
 - [path_traversal](./path_traversal)
 - [open_redirect](./open_redirect)
 - [unrestricted_file_upload](./unrestricted_file_upload)
-- [](./)
-- [](./)
-- [](./)
-- [](./)
-- [](./)
-- [](./)
+- [sql_injection_union](./sql_injection_union)
+- [sql_injection_searchimg](./sql_injection_searchimg)
+- [survey_value_manipulation](./survey_value_manipulation)
+- [feedback_xss](./feedback_xss)
+- [media_xss](./media_xss)
+- [brute_force](./brute_force)
 
 
 ## Resources
