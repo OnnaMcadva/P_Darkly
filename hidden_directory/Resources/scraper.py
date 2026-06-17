@@ -1,9 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
+# , as_completed
 import threading
-import sys
+# import sys
 
 BASE_URL = "http://localhost:8080/.hidden/"
 OUTPUT_FILE = "scrapped_data"
@@ -111,6 +112,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10k-most-common.txt
